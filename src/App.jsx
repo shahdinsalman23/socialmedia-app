@@ -13,16 +13,16 @@ const App = () => {
 
   return (
     <>
-      <div className="app-container">
-        <Sidebar />
-        <div className="content">
-          <Header />
-          {}
-          <CreatePost/>
-          <PostList/>
-          <Footer />
+      <PostListProvider>
+        <div className="app-container">
+          <Sidebar selectedTab={selectedTab} setSelectedTab={setSelectedTab} />
+          <div className="content">
+            <Header />
+            {selectedTab === 'Home' ? <PostList /> : <CreatePost />}
+            <Footer />
+          </div>
         </div>
-      </div>
+      </PostListProvider>
     </>
   )
 }
