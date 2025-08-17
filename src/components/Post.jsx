@@ -10,6 +10,7 @@ const Post = () => {
                         <a href="#" className="btn btn-primary">Go somewhere</a>
                     </div>
             </div>
+            
         </>
     )
 }
