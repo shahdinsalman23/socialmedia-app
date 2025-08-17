@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import './App.css'
 import Sidebar from './components/Sidebar';
 import CreatePost from './components/CreatePost';
-import Post from './components/Post';
+import PostList from './components/PostList';
 
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const App = () => {
         <div className="content">
           <Header />
           <CreatePost/>
-          <Post/>
+          <PostList/>
           <Footer />
         </div>
       </div>
