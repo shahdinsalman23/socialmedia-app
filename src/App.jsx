@@ -12,7 +12,7 @@ const App = () => {
         <Sidebar />
         <div className="content">
           <Header />
-          {/* <CreatePost/> */}
+          <CreatePost/>
           <Footer />
         </div>
       </div>
