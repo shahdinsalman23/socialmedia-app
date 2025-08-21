@@ -17,7 +17,6 @@ const PostListProvider = ({ children }) => {
         
     }
 
-
     const deletePost = () => {
         
     }
